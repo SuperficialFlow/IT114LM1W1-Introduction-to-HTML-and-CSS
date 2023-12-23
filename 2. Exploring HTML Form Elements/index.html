@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML Form Tags</title>
+</head>
+
+<body>
+    <h1>HTML Form Example</h1>
+    <!-- TODO 2.1: Add the container for the form. It should POST to "/submit_form"  -->
+
+    <form action="/submit_form" method="post">
+
+        <!-- TODO 2.2: Add a first name text field -->
+
+        <div>
+            <label for="fName">First Name:</label>
+            <input type="text" id="fName" name="fName">
+        </div>
+
+        <!-- TODO 2.3: Add a last name text field. The field must be required. -->
+
+        <div>
+            <label for="lName">Last Name:</label>
+            <input type="text" id="lName" name="lName" required>
+        </div>
+
+        <!-- TODO 2.4: Add an email text field. The field must be read only. -->
+        
+        <div>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" readonly>
+        </div>
+
+        <!-- TODO 2.5: Add an address text field. The field must be disabled. -->
+
+        <div>
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" disabled>
+        </div>
+        <br />
+
+        <!-- TODO 2.6: Add a year level dropdown. The inital selected value must be "Select an option", but it must not be a valid selection. -->
+
+        <div>
+            <label for="yrLevel">Year Level:</label>
+            <select id="yrLevel" name="yrLevel">
+                <option value="1">First Year</option>
+                <option value="2">Second Year</option>
+                <option value="3">Third Year</option>
+                <option value="4">Fourth Year</option>
+            </select>
+        </div>
+        <br />
+
+        <!-- TODO 2.7: Add radio buttons that ask which learning mode the user prefers -->
+
+        <fieldset>
+            <legend>Preferable Learning Mode</legend>
+            <div>
+                <input type="radio" id="online" name="mode" value="online">
+                <label for="online">Online</label>
+            </div>
+            <div>
+                <input type="radio" id="onsite" name="mode" value="onsite">
+                <label for="onsite">Onsite</label>
+            </div>
+        </fieldset>
+        <br />
+
+        <!-- TODO 2.8: Add check boxes that ask which subjects the user has taken -->
+
+        <fieldset>
+            <legend>Which Subjects are Taken</legend>
+            <div>
+                <input type="checkbox" id="100" name="100" value="100">
+                <label for="100">IT100</label>
+            </div>
+            <div>
+                <input type="checkbox" id="101" name="101" value="101">
+                <label for="101">IT101</label>
+            </div>
+            <div>
+                <input type="checkbox" id="114" name="114" value="114">
+                <label for="114">IT114</label>
+            </div>
+        </fieldset>
+        <br />
+
+        <!-- TODO 2.9: Add a text area that asks the user if they would prefer to be a cactus or a shark -->
+        
+        <label for="prefer">Would you prefer to be a <em>Cactus</em> or <strong>Shark?</strong></label>
+        <div>
+            <textarea id="prefer" name="prefer"></textarea>
+        </div>
+        <br />
+        
+        <!-- TODO 2.10: Add a submit button -->
+
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+
+</html>

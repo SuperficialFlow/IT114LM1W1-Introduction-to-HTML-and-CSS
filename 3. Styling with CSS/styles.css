@@ -1,0 +1,33 @@
+.center-text {
+    /* TODO 3.1: Align the text center or right */
+    text-align: center;
+    /* TODO 3.2: Change the color of the font to your favorite color */
+    color: blue;
+    /* TODO 3.3: Make the font thicker */
+    font-weight: 350;
+    /* TODO 3.4: Increase the font size*/
+    font-size: 50px;
+    /* TODO 3.5: Add an underline to the text */
+    text-decoration: underline;
+}
+
+.paragraph-style {
+    /* TODO 3.6: Make the font italic */
+    font-style: italic;
+    /* TODO 3.7: Change the font */
+    font-family: 'Times New Roman', Times, serif;
+    /* TODO 3.8: Increase the space between lines */
+    line-height: 1.5;
+}
+
+.box {
+    /* TODO 3.9: Set the width and height of the div. Try out the different units of HTML. px, em, %, in, rem  */
+    width: 300px;
+    height: 250px;
+    /* TODO 3.10: Change the background color fo the div. Can you find a way to make the background color 50% transparent? */
+    background-color: rgba(0, 0, 255, 0.5);
+    /* TODO 3.11: Play around with the margin, padding and border. Can you find a way to set the size of specific sides? */
+    margin: 10px 20px;
+    padding: 20px 10px;
+    border: 8px solid black;
+}

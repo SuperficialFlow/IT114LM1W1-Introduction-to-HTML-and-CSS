@@ -1,0 +1,41 @@
+/* TODO 4.1: select all elements */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* TODO 4.2: Select the <p> element */
+p {
+    color: blue;
+}
+
+/* TODO 4.3: Select the elements with the class "text" */
+.text {
+    font-size: 20px;
+}
+
+/* TODO 4.4: Select the element with the id "unique" */
+#unique {
+    background-color: yellow;
+}
+
+/* TODO 4.5: Select the element with the classes "title" or "text" in one query selector */
+.title, .text {
+    text-align: center;
+}
+
+/* TODO 4.6: Select the descendant of body with the class "common" */
+body .common {
+    border: 2px solid black;
+}
+
+/* TODO 4.7: Select the element whose target attribute is set to "_blank" */
+[target="_blank"] {
+    color: red;
+}
+
+/* TODO 4.8: Select the first letter of <p> elements */
+p::first-letter {
+    font-size: 200%;
+    color: blue;
+}
